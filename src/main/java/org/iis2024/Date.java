@@ -15,6 +15,7 @@ import java.text.SimpleDateFormat;
  * Instances of this class are immutable, meaning that once a Date object is created, the day,
  * month, and year values cannot be changed.
  */
+//Salida
 public class Date {
   private final int day;
   private final int month;
@@ -60,7 +61,9 @@ public class Date {
     this.month = month;
     this.year = year;
   }
-
+ public void methodAddedByOwner(){
+    System.out.println("Method added by owner");
+ }
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
    * month within 1 to 12, and the day valid within the given month and year, considering leap
